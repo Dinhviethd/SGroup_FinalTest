@@ -41,7 +41,7 @@ const createUsers = async () => {
         },
         {name: 'Admin User',
             email: 'admin@example.com',
-            passwordHash: adminPassword,
+            passwordHash: hashedPassword,
             role: 'admin'
         },
         {
