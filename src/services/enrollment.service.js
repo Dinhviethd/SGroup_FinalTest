@@ -1,4 +1,4 @@
-import EnrollModel from '../models/enrollment.model';
+import EnrollModel from '../models/enrollment.model.js';
 import mongoose from 'mongoose';
 
 class EnrollmentService {

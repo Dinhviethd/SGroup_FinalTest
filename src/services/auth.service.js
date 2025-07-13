@@ -1,4 +1,3 @@
-import comparePassword from '../utils/password.util.js'
 import userModel from '../models/users.model.js'
 import { hashPassword, comparePassword } from '../utils/password.util.js'
 import { JwtUtils } from '../utils/jwt.util.js'

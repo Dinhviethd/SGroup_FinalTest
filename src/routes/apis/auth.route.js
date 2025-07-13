@@ -9,9 +9,4 @@ const router = express.Router();
 router.post('/register', validateRegister, AuthController.register);
 router.post('/login', validateLogin, AuthController.login);
 
-// Admin routes
-router.get('/', authenticateJWT, isAdmin, UserController.getAllUsers);
-router.get('/:id', authenticateJWT, isAdmin, UserController.getUserById);
-router.delete('/:id', authenticateJWT, isAdmin, UserController.deleteUser);
-
 export default router;
